@@ -1,0 +1,647 @@
+/* needy css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-family: 'Andika';
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+p,
+a,
+span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* main css */
+
+
+/* section 1 */
+
+#vr_1 {
+    padding: 4em 0;
+    background: #fef9e6;
+}
+
+.vr_header {
+    padding: 1em;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.vr_header i {
+    font-size: 1.5em;
+}
+
+.middle_wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+#vr_1 .left_wrapper h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.left_wrapper {
+    padding: 30px;
+}
+
+#vr_1 .left_wrapper p {
+    margin: 1.5em 0;
+}
+
+#vr_1 .social i {
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+#vr_1 .right_wrapper {
+    padding: 30px 30px 0 0px;
+}
+
+#vr_1 .right_wrapper p {
+    margin-top: 1.5em;
+}
+
+.read_button a {
+    margin-top: 1.5em;
+    padding: 10px 30px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+}
+
+.read_button a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.read_button a {
+    font-weight: 600;
+}
+
+.right {
+    margin-block-start: auto;
+}
+
+
+/* section 2 */
+
+.vr_2 {
+    padding: 4em 0;
+}
+
+.vr_2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vr_2 .left_wrapper h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.vr_2 .left_wrapper p {
+    margin: 1.5em 0;
+}
+
+.vr_2 .left_wrapper img {
+    float: right;
+}
+
+
+/* section 3 */
+
+.vr_tabs {
+    padding: 4em 0;
+}
+
+.vr_tabs img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vr_tabs .head {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.vr_tabs .head h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.vr_tabs figure img {
+    transition: all 0.4s ease;
+}
+
+.vr_tabs figure img:hover {
+    scale: 1.1;
+    transition: all 0.4s ease;
+}
+
+.vr_tabs figure {
+    overflow: hidden;
+}
+
+.vr_tabs .img_wrapper {
+    padding: 1em;
+    background: #fff;
+    margin: 0.5em;
+    /* box-shadow: 0 2px 5px #008374; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.vr_tabs .desc h6 {
+    margin: 1em 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.vr_tabs .desc h5 {
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.vr_4 {
+    padding: 4em 0;
+    background: #fef9e6;
+}
+
+.vr_4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vr_4 .right_wrapper {
+    padding: 30px;
+}
+
+.vr_4 .right_wrapper h2 {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.vr_4 .box_wrapper {
+    background: #fff;
+    margin: 0.5em;
+    padding: 1em 1em 2em 1em;
+}
+
+.vr_4 .box_wrapper h3 {
+    font-size: 30px;
+    margin-bottom: 0.5em;
+}
+
+.vr_4 .box_wrapper h6 {
+    font-size: 18px;
+    margin-bottom: .5em;
+}
+
+
+/* section 5 */
+
+.vr_5 {
+    padding: 4em 0;
+}
+
+.vr_5 .intro {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.vr_5 .intro h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.vr_accrodion .accordion_head {
+    padding: 1.5em;
+    background: #fef9e6;
+    position: relative;
+    cursor: pointer;
+}
+
+.vr_accrodion .accordion_head h6 {
+    font-size: 18px;
+}
+
+.vr_accrodion .accordion_item p {
+    padding: 2em;
+    display: none;
+}
+
+.vr_accrodion .accordion_item:nth-child(2) p {
+    display: block;
+}
+
+.vr_accrodion .accordion_head:after {
+    content: "\f067";
+    font-family: 'FontAwesome';
+    /* font-weight: 400; */
+    font-size: 20px;
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.vr_accrodion .accordion_head.active:after {
+    content: "\f068";
+}
+
+
+/* section 6 */
+
+section.vr_6 {
+    background: #f2f2f2;
+    padding: 4em 0;
+}
+
+section.vr_6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.vr_6 .vr_cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+section.vr_6 .head {
+    text-align: center;
+}
+
+section.vr_6 .head h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.vr_6 .vr_cards .inner_cards {
+    padding: 0.5em 0.5em 1em 0.5em;
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 100%) 0px 5px 30px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+.vr_6 .vr_cards .inner_cards:not(:first-child) {
+    margin-left: -110px;
+}
+
+.inner_cards h6 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.vr_6 .vr_cards .inner_cards:hover {
+    transform: translate(-1em) rotate(3deg);
+    /* transition: all 0.4s ease-in-out; */
+}
+
+.vr_6 .vr_cards .inner_cards:hover~.inner_cards {
+    transform: translateX(80px) !important;
+}
+
+.vr_6 .vr_cards .inner_cards:first-child:hover {
+    transform: translate(-0.5rem, -1rem) rotate(3deg) !important;
+}
+
+
+/* section 7 */
+
+section.vr_7 {
+    padding: 4em 0;
+    background: #fef9e6;
+}
+
+section.vr_7 .head {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+section.vr_7 .head h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/3.jpg");
+    border-radius: 50%;
+}
+
+.vr_7 .start_wrapper {
+    background: #fff;
+    padding: 2em;
+    margin: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.vr_7 .col-lg-4:nth-child(even) .start_wrapper {
+    transform: scale(1.15);
+    /* border: 3px solid darkgreen; */
+    border-radius: 10px;
+}
+
+.vr_7 .desc {
+    margin: 1em 0;
+}
+
+.vr_7 .desc p {
+    margin: 1em 0;
+}
+
+
+/* section 8 */
+
+.vr_8 {
+    padding: 4em 0;
+    background: #f2f2f2;
+}
+
+.vr_8 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.contact label {
+    font-weight: 700;
+}
+
+.contact button {
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.contact {
+    margin: 0.5em;
+}
+
+.right_image_wrapper {
+    margin: 0.5em;
+}
+
+
+/* tabs css */
+
+.vr_tabs .head {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    color: #008374;
+}
+
+.vr_tabs .head h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.vr_tabs .head h2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: .5rem;
+    top: 100%;
+    height: 5px;
+    width: 50%;
+    background: #008374;
+}
+
+.vr_tabs #pills-tab {
+    justify-content: center;
+}
+
+.vr_tabs #pills-tab li button {
+    color: #000;
+    transition: all 0.4s ease;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.vr_tabs #pills-tab li button.active {
+    background: unset;
+    color: #008374;
+    box-shadow: 0 2px 5px;
+}
+
+
+/* date and time css */
+
+.time {
+    margin-top: 20px;
+}
+
+.time span:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+/* footer */
+
+footer {
+    padding: 4em;
+    background: #333333;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    .vr_6 .vr_cards .inner_cards {
+        box-shadow: unset;
+    }
+    .vr_7 .start_wrapper {
+        width: 60%;
+    }
+    .vr_7 .row>div:nth-child(even) .start_wrapper {
+        margin-left: auto;
+    }
+    .vr_7 .col-lg-4:nth-child(even) .start_wrapper {
+        transform: unset;
+    }
+}
+
+@media (max-width: 766px) {
+    .vr_7 .start_wrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {}
+
+.vr_8 a {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+}
+
+.vr_8 a span {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: rgba(24, 25, 25, 0.52);
+    /* opacity: .4; */
+}
+
+.vr_8 a span.top {
+    transform: rotate(270deg);
+    transform-origin: top;
+}
+
+.vr_8 a span.left {
+    left: 100%;
+}
+
+.vr_8 a span.right {
+    transform: rotate(90deg);
+    transform-origin: bottom;
+    scale: -1;
+    left: 100%;
+}
+
+.vr_8 a p {
+    top: calc(50%);
+    position: absolute;
+    transform: translateY(-50%) rotate(-45deg);
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(24 25 25 / 50%);
+    transition: all 0.5s ease;
+}
+
+.vr_8 a:hover p {
+    color: #000;
+    transition: all 1s ease;
+}
+
+.vr_7 .desc h5 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.519);
+}
+
+.vr_7 .desc h5:before {
+    content: attr(data-hover);
+    position: absolute;
+    color: #000;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.9s ease-in-out;
+}
+
+.vr_7 .desc h5:hover::before {
+    width: 100%;
+}
+
+.vr_8 a span:before {
+    content: "";
+    height: 0;
+    width: 1px;
+    background: #000;
+    position: absolute;
+    transition: height 0.5s ease-in-out;
+}
+
+.vr_8 a:hover span:before {
+    height: 100%;
+}
+
+.vr_8 a:hover .right:before,
+.vr_8 a:hover .left:before {
+    /* transition: height 0.5s; */
+    transition-delay: 0.5s;
+}
+
+.spinner {
+    height: 130px;
+    width: 130px;
+    border-bottom: 15px solid purple;
+    border-top: 15px solid purple;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    /* left: calc(50% - 130px);
+    top: calc(50% - 130px); */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    position: fixed;
+    background: #f2f2f2;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.5s ease;
+}
+
+.loader.active {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
